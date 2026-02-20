@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1 - Default Example",
+      "setup": "javac src/FileSeparator.java",
+      "run": "java -cp src FileSeparator",
+      "input": "",
+      "output": "Even File: 10 8 2\\s*\\r?\\nOdd File: 5 3\\s*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
